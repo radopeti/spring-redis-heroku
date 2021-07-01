@@ -1,1 +1,1 @@
-web: java -jar target/spring-redis-heroku-0.0.1-SNAPSHOT.jar
+java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
